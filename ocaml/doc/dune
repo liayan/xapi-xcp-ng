@@ -1,0 +1,35 @@
+(executable
+  (name jsapi)
+  (flags (:standard))
+  (libraries
+   xapi-datamodel
+   xapi-consts
+   xapi-stdext-pervasives
+   xapi-stdext-std
+   xapi-stdext-unix
+   uuid
+   gzip
+   mustache
+  )
+  (preprocess (pps ppx_deriving_rpc))
+)
+
+(alias
+  (name jsapigen)
+  (deps
+    (:x jsapi.exe)
+    (source_tree templates)
+  )
+  (package xapi-datamodel)
+  (action (run %{x}))
+)
+
+(alias
+  (name runtest)
+  (deps
+    (:x jsapi.exe)
+    (source_tree templates)
+  )
+  (package xapi-datamodel)
+  (action (run %{x}))
+)

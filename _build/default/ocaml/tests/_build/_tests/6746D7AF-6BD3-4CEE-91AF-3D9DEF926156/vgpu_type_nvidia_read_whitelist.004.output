@@ -1,0 +1,8 @@
+[20230915T14:37:10.299Z| info||0 ||xapi] Can not get the file version of /usr/lib64/libnvidia-vgpu.so, use the default value
+[20230915T14:37:10.300Z| info||0 ||xapi] Getting multiple vGPU supported from config file: 0, model: TYPE FOO2
+[20230915T14:37:10.300Z| info||0 ||xapi] NVIDIA GPU name=TYPE FOO2 id=20 sriov=false
+[20230915T14:37:10.300Z| info||0 ||xapi] Getting multiple vGPU supported from config file: 0, model: TYPE FOO3
+[20230915T14:37:10.300Z| info||0 ||xapi] NVIDIA GPU name=TYPE FOO3 id=21 sriov=false
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT (test_data/nvidia-whitelist.xml, 3335, 4445) -> [3335 Some 4445 1112 2223 536870912 4 8 2400x1600; 3335 Some 4445 1111 2222 268435456 2 16 1920x1200]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m

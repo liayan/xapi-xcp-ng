@@ -1,0 +1,664 @@
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.168Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.169Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.169Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.169Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.169Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.170Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001629
+[20230915T14:36:35.171Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.171Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:1fe980e5-9a6e-4fdb-ad20-8afca6b7e024) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.171Z|debug||0 ||db_write] create_row host (OpaqueRef:9f952306-ed6b-43bd-935b-6df09e432c5a) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.171Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.171Z|debug||0 ||db_write] create_row VM (OpaqueRef:67c1643d-9c81-4c60-94f7-10a20d5f34b8) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.171Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.172Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:caed1b15-568c-405f-9b04-08f858be3dc9) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.172Z|debug||0 ||db_write] create_row console (OpaqueRef:c1859aab-74b7-46ee-8111-d416ce05fdf4) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.172Z|debug||0 ||db_write] create_row console (OpaqueRef:a4712b09-73be-4bbf-a889-26ee1570e7a3) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.172Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.173Z|debug||0 ||db_write] create_row pool (OpaqueRef:b56cb518-1f73-461e-81d9-03cc7531181d) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.173Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:18c2d6a6-30a7-4bf3-aaa9-7cf7a6fad5e9) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.173Z|debug||0 ||db_write] create_row VM (OpaqueRef:c2217e02-21de-46cf-b8c1-62072ca8b7c6) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.176Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.176Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.176Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.176Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.178Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001854
+[20230915T14:36:35.178Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.178Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:d93f1811-b336-4603-a721-841eeb6bc554) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.178Z|debug||0 ||db_write] create_row host (OpaqueRef:e68bcfaf-7e72-461c-b047-6d8fd1754b44) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.179Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.179Z|debug||0 ||db_write] create_row VM (OpaqueRef:d112d935-6c8e-4b9b-9cf1-ff7c7d1c9ad1) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.179Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.179Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:8f35706c-e569-4045-a558-eea1e4a701bd) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.180Z|debug||0 ||db_write] create_row console (OpaqueRef:75993fbb-5c97-496d-829d-f13c64df6ffd) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.180Z|debug||0 ||db_write] create_row console (OpaqueRef:250a1259-ea28-4f09-a32b-26ed04ccf9e3) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.180Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.180Z|debug||0 ||db_write] create_row pool (OpaqueRef:6b94a8c1-ab00-4367-adfa-4107035adb92) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.181Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:0cce59a7-67af-41ad-aaf8-1be7c8384e3f) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.181Z|debug||0 ||db_write] create_row VM (OpaqueRef:8b538c61-81ae-47d4-9e26-4b2f48a98a0e) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.184Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.184Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.184Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.184Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.186Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001645
+[20230915T14:36:35.186Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.186Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:ee717938-8b70-4717-abdc-70f802cf54b5) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.186Z|debug||0 ||db_write] create_row host (OpaqueRef:35428521-abcd-47ca-86e2-925c59e7e61b) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.186Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.187Z|debug||0 ||db_write] create_row VM (OpaqueRef:f5c4fb47-e9cc-43fd-9d96-be75fcc41f86) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.187Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.187Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:a9c5b24c-330f-4ee5-8f20-b49708dd67ec) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.187Z|debug||0 ||db_write] create_row console (OpaqueRef:d296e27a-6e5d-4970-815c-4113899bb865) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.188Z|debug||0 ||db_write] create_row console (OpaqueRef:d633c38a-8f81-4268-8941-383ddba3f097) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.188Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.188Z|debug||0 ||db_write] create_row pool (OpaqueRef:ead9437e-d234-4b8d-a715-4e601f91b158) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.188Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:698fa1d2-a426-4708-9c7f-9f52d504a29b) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.188Z|debug||0 ||db_write] create_row VM (OpaqueRef:2762d820-28c7-453c-b612-261223125a44) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.191Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.192Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.192Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.192Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.192Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.193Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001684
+[20230915T14:36:35.193Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.193Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:549af07e-d158-410d-8930-e90e57816389) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.194Z|debug||0 ||db_write] create_row host (OpaqueRef:82ddbac9-d997-4078-8ef5-db2f3068f451) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.194Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.194Z|debug||0 ||db_write] create_row VM (OpaqueRef:ada72a05-bdef-4821-bc7b-cc1cf853a7b6) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.194Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.195Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:20237e61-fe91-44a6-839e-1207e6a34d3b) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.195Z|debug||0 ||db_write] create_row console (OpaqueRef:cbb58ff0-209c-43ef-be8c-a16dd8803bfb) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.195Z|debug||0 ||db_write] create_row console (OpaqueRef:16a9131e-11ae-41e4-a709-d4e0ecdfa346) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.195Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.196Z|debug||0 ||db_write] create_row pool (OpaqueRef:1804c5ef-487d-418a-be77-1b2691da8a60) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.196Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:637634d8-5e2b-49f4-b73f-a9fe789eff18) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.196Z|debug||0 ||db_write] create_row VM (OpaqueRef:19397daa-d71c-4fd6-8edf-4574174529db) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.199Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.200Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.200Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.200Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.200Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.201Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001679
+[20230915T14:36:35.201Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.201Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:f58d466d-9413-4037-9788-cb53322d2d12) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.202Z|debug||0 ||db_write] create_row host (OpaqueRef:c5d40e35-c7e0-479c-8036-bb2831dc1e36) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.202Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.202Z|debug||0 ||db_write] create_row VM (OpaqueRef:61f1853e-edde-4d64-933e-b35f5e93efd3) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.203Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.203Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:5be6a00d-7293-4d07-982d-270abca61879) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.203Z|debug||0 ||db_write] create_row console (OpaqueRef:533f1b56-0dbc-422e-ad45-c5c6bad49f26) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.203Z|debug||0 ||db_write] create_row console (OpaqueRef:6bb8370c-692e-443f-8cfc-7f61345d2c22) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.203Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.204Z|debug||0 ||db_write] create_row pool (OpaqueRef:c8900a1f-3964-4185-b992-2ea663203d73) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.204Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:fea3e3ca-ffc1-4f2e-8042-335ec4e93a32) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.204Z|debug||0 ||db_write] create_row VM (OpaqueRef:77bb7d8b-5f38-455b-aad1-eacb0c17dd22) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.207Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.208Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.208Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.208Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.208Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.209Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001658
+[20230915T14:36:35.209Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.209Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:6a6165b7-4be8-44e5-a1ee-0ae7bdb01ac0) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.209Z|debug||0 ||db_write] create_row host (OpaqueRef:8a342bc1-ec2f-4d9f-a0e9-cbde6d5dc7ef) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.210Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.210Z|debug||0 ||db_write] create_row VM (OpaqueRef:d773ad97-0bce-4d30-821e-5f71a7e50d41) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.210Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.211Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:df792602-0c28-4908-8622-843ad7d0078f) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.211Z|debug||0 ||db_write] create_row console (OpaqueRef:8e173670-300e-4c75-a1b7-1da3ada08219) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.211Z|debug||0 ||db_write] create_row console (OpaqueRef:b50ad2e7-ecb5-4fb2-8e9e-41fdc79be20a) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.211Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.212Z|debug||0 ||db_write] create_row pool (OpaqueRef:1dd037b5-08b1-4625-8bc4-240d63106027) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.212Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:6b532dfc-e2d4-412f-9787-62b854e461b1) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.212Z|debug||0 ||db_write] create_row VM (OpaqueRef:adf6564e-129c-4808-8e0f-0cfa38ec3219) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.215Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.215Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.215Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.215Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.217Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001907
+[20230915T14:36:35.217Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.217Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:f75416ba-5985-4aa6-8fe1-2e7207e721ee) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.218Z|debug||0 ||db_write] create_row host (OpaqueRef:15580b29-d8c5-4e7f-a7a6-5d42d3bb91eb) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.218Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.218Z|debug||0 ||db_write] create_row VM (OpaqueRef:72d71127-c0de-4f0d-9935-d1869a80e708) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.218Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.219Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:0bd6b24f-f1b0-401f-8fc4-247a03999149) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.219Z|debug||0 ||db_write] create_row console (OpaqueRef:6d1be11e-4379-47fc-8a4d-77d161593f8c) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.219Z|debug||0 ||db_write] create_row console (OpaqueRef:4ee0c919-f0ed-47f2-afee-fc7bc6d3ebc9) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.219Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.219Z|debug||0 ||db_write] create_row pool (OpaqueRef:935ff776-d10b-4e1d-8d36-4328e96f34c9) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.220Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:ea00fe1e-95e1-4ef9-8bd6-104b20b54504) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.220Z|debug||0 ||db_write] create_row VM (OpaqueRef:6e2fb7e2-04c5-4823-b21e-bd4c0df1b30a) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:35.223Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:35.223Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.223Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:35.223Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:35.225Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001876
+[20230915T14:36:35.225Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:36:35.225Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:c7109b40-7f9a-4981-b30e-36a37e4635eb) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:36:35.225Z|debug||0 ||db_write] create_row host (OpaqueRef:5368ef99-908e-44b4-860c-a0f9fdb30ede) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:36:35.225Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:36:35.226Z|debug||0 ||db_write] create_row VM (OpaqueRef:ad5062b0-ecb7-4d39-8c63-766ac49b6f2b) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:36:35.226Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:36:35.226Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:6e22dd06-eaeb-4a63-bb3f-e02bfcad582d) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.227Z|debug||0 ||db_write] create_row console (OpaqueRef:1a261e9d-929e-4d11-b47b-b94129b3ea7a) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.227Z|debug||0 ||db_write] create_row console (OpaqueRef:a0750b3e-eef9-45c2-9fa3-ddfd7c01dbd5) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:36:35.227Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:36:35.227Z|debug||0 ||db_write] create_row pool (OpaqueRef:b7408d88-f5d3-489c-b00f-8f376731ee2e) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:36:35.227Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:050c6fb9-8900-4134-ab28-ed7d9410fc75) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:36:35.228Z|debug||0 ||db_write] create_row VM (OpaqueRef:e4806984-4402-43bf-bdbf-a1fab57bea8c) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]

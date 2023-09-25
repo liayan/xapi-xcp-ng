@@ -1,0 +1,6 @@
+description = ""
+requires = "threads xapi-stdext-unix"
+archive(byte) = "xapi_cli_protocol.cma"
+archive(native) = "xapi_cli_protocol.cmxa"
+plugin(byte) = "xapi_cli_protocol.cma"
+plugin(native) = "xapi_cli_protocol.cmxs"

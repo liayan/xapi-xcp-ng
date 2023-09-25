@@ -1,0 +1,32 @@
+(lang dune 2.9)
+(name xapi-consts)
+(library
+ (name xapi-consts)
+ (kind normal)
+ (archives (byte xapi_consts.cma) (native xapi_consts.cmxa))
+ (plugins (byte xapi_consts.cma) (native xapi_consts.cmxs))
+ (native_archives xapi_consts.a)
+ (requires xapi-consts.xapi_version)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Api_errors) (obj_name api_errors) (visibility public) (impl))
+   ((name Api_messages) (obj_name api_messages) (visibility public) (impl))
+   ((name Constants) (obj_name constants) (visibility public) (impl))
+   ((name Sizes) (obj_name sizes) (visibility public) (impl)))))
+(library
+ (name xapi-consts.xapi_version)
+ (kind normal)
+ (archives
+  (byte xapi_version/xapi_version.cma)
+  (native xapi_version/xapi_version.cmxa))
+ (plugins
+  (byte xapi_version/xapi_version.cma)
+  (native xapi_version/xapi_version.cmxs))
+ (native_archives xapi_version/xapi_version.a)
+ (requires xapi-inventory)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Build_info) (obj_name build_info) (visibility public) (impl))
+   ((name Xapi_version) (obj_name xapi_version) (visibility public) (impl)))))

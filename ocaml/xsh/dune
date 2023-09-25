@@ -1,0 +1,9 @@
+(executable
+  (name xsh)
+  (public_name xsh)
+  (package xapi)
+  (libraries
+   stunnel
+   threads
+  )
+)

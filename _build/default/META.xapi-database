@@ -1,0 +1,19 @@
+description = ""
+requires =
+"gzip
+ http-svr
+ ppx_sexp_conv.runtime-lib
+ rpclib
+ sexpr
+ threads
+ uuid
+ xapi-idl
+ xapi-stdext-encodings
+ xapi-stdext-pervasives
+ xapi-stdext-std
+ xapi-stdext-threads
+ xapi-stdext-unix"
+archive(byte) = "xapi_database.cma"
+archive(native) = "xapi_database.cmxa"
+plugin(byte) = "xapi_database.cma"
+plugin(native) = "xapi_database.cmxs"

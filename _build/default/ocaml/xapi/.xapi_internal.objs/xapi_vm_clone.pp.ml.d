@@ -1,0 +1,1 @@
+ocaml/xapi/xapi_vm_clone.pp.ml: API Api_errors Client Constants Context Date Db Db_actions Debug Event_helper Event_types Features Helpers Int64 List Pervasiveext Pool_features Printexc Printf Record_util Ref Stdext TaskHelper Unix Uuid Xapi_globs Xapi_session Xapi_vbd_helpers Xapi_vgpu Xapi_vif_helpers Xapi_vm_helpers Xapi_vm_lifecycle Xapi_vmss Xapi_xenops Xmlrpc

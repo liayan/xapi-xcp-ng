@@ -1,0 +1,34 @@
+(lang dune 2.9)
+(name xapi-types)
+(library
+ (name xapi-types)
+ (kind normal)
+ (archives (byte xapi_types.cma) (native xapi_types.cmxa))
+ (plugins (byte xapi_types.cma) (native xapi_types.cmxs))
+ (native_archives xapi_types.a)
+ (requires
+  astring
+  http-svr
+  rpclib
+  threads
+  uuidm
+  xapi-consts
+  xapi-stdext-date
+  xapi-idl)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name API) (obj_name aPI) (visibility public) (impl))
+   ((name Compression_algorithms)
+    (obj_name compression_algorithms)
+    (visibility public)
+    (impl))
+   ((name Event_types) (obj_name event_types) (visibility public) (impl))
+   ((name Features) (obj_name features) (visibility public) (impl) (intf))
+   ((name Ref) (obj_name ref) (visibility public) (impl) (intf))
+   ((name SecretString)
+    (obj_name secretString)
+    (visibility public)
+    (impl)
+    (intf))
+   ((name Vpx_types) (obj_name vpx_types) (visibility public) (impl)))))

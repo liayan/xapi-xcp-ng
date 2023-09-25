@@ -1,0 +1,195 @@
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:37:06.747Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:37:06.748Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:37:06.748Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:37:06.748Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:37:06.748Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:37:06.751Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.003203
+[20230915T14:37:06.751Z|error||0 ||dbsync] Cannot read IP address. Check the control interface has an IP address
+[20230915T14:37:06.751Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:a64ca547-ee74-44e3-b5f7-048bf1d12acd) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:06.751Z|debug||0 ||db_write] create_row host (OpaqueRef:cd8f8927-42ea-4e86-a474-03a7e57af96d) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:37:06.751Z|error||0 ||helpers] Failed to find domain zero (uuid = b568ecde-50ed-4090-abc7-9692051655b0)
+[20230915T14:37:06.752Z|debug||0 ||db_write] create_row VM (OpaqueRef:acaef87c-e827-497e-a4ef-b0cbe324be47) [(_ref,v),(uuid,v),(allowed_operations,v),(current_operations,v),(name__label,v),(name__description,v),(power_state,v),(user_version,v),(is_a_template,v),(is_default_template,v),(suspend_VDI,v),(resident_on,v),(scheduled_to_be_resident_on,v),(affinity,v),(memory__overhead,v),(memory__target,v),(memory__static_max,v),(memory__dynamic_max,v),(memory__dynamic_min,v),(memory__static_min,v),(VCPUs__params,v),(VCPUs__max,v),(VCPUs__at_startup,v),(actions__after_shutdown,v),(actions__after_reboot,v),(actions__after_crash,v),(PV__bootloader,v),(PV__kernel,v),(PV__ramdisk,v),(PV__args,v),(PV__bootloader_args,v),(PV__legacy_args,v),(HVM__boot_policy,v),(HVM__boot_params,v),(HVM__shadow_multiplier,v),(platform,v),(PCI_bus,v),(other_config,v),(domid,v),(domarch,v),(last_boot_CPU_flags,v),(is_control_domain,v),(metrics,v),(guest_metrics,v),(last_booted_record,v),(recommendations,v),(xenstore_data,v),(ha_always_run,v),(ha_restart_priority,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(transportable_snapshot_id,v),(blobs,v),(tags,v),(blocked_operations,v),(snapshot_info,v),(snapshot_metadata,v),(parent,v),(bios_strings,v),(protection_policy,v),(is_snapshot_from_vmpp,v),(snapshot_schedule,v),(is_vmss_snapshot,v),(appliance,v),(start_delay,v),(shutdown_delay,v),(order,v),(suspend_SR,v),(version,v),(generation_id,v),(hardware_platform_version,v),(has_vendor_device,v),(requires_reboot,v),(reference_label,v),(domain_type,v),(NVRAM,v)]
+[20230915T14:37:06.752Z|debug||0 ||create_misc] Domain 0 record does not have associated metrics record. Creating now
+[20230915T14:37:06.752Z|debug||0 ||db_write] create_row VM_metrics (OpaqueRef:527e340a-bbdd-4fbb-8c02-fad61e8aab31) [(_ref,v),(uuid,v),(memory__actual,v),(VCPUs__number,v),(VCPUs__utilisation,v),(VCPUs__CPU,v),(VCPUs__params,v),(VCPUs__flags,v),(state,v),(start_time,v),(install_time,v),(last_updated,v),(other_config,v),(hvm,v),(nested_virt,v),(nomigrate,v),(current_domain_type,v)]
+[20230915T14:37:06.753Z|debug||0 ||db_write] create_row console (OpaqueRef:c94054f0-5603-428f-8d31-c16871ec63f4) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:37:06.753Z|debug||0 ||db_write] create_row console (OpaqueRef:6fc70a87-be21-4d62-b62b-6fd8dfcf2d83) [(_ref,v),(uuid,v),(protocol,v),(location,v),(VM,v),(other_config,v),(port,v)]
+[20230915T14:37:06.753Z|debug||0 ||create_misc] Updating Domain 0 metrics record
+[20230915T14:37:06.753Z|debug||0 ||db_write] create_row pool (OpaqueRef:606a3cf8-255d-49af-830e-caf9fcb6de00) [(_ref,v),(uuid,v),(name_label,v),(name_description,v),(master,v),(default_SR,v),(suspend_image_SR,v),(crash_dump_SR,v),(other_config,v),(ha_enabled,v),(ha_configuration,v),(ha_statefiles,v),(ha_host_failures_to_tolerate,v),(ha_plan_exists_for,v),(ha_allow_overcommit,v),(ha_overcommitted,v),(blobs,v),(tags,v),(gui_config,v),(health_check_config,v),(wlb_url,v),(wlb_username,v),(wlb_password,v),(wlb_enabled,v),(wlb_verify_cert,v),(redo_log_enabled,v),(redo_log_vdi,v),(vswitch_controller,v),(restrictions,v),(ha_cluster_stack,v),(allowed_operations,v),(current_operations,v),(guest_agent_config,v),(cpu_info,v),(policy_no_vendor_device,v),(live_patching_disabled,v),(igmp_snooping_enabled,v),(uefi_certificates,v),(is_psr_pending,v)]
+[20230915T14:37:06.754Z|debug||0 ||db_write] create_row session (OpaqueRef:58a9589e-3aa1-4539-9517-e14b057f2a22) [(_ref,v),(uuid,v),(this_host,v),(this_user,v),(last_active,v),(pool,v),(other_config,v),(is_local_superuser,v),(subject,v),(validation_time,v),(auth_user_sid,v),(auth_user_name,v),(rbac_permissions,v),(parent,v),(originator,v)]
+[20230915T14:37:06.754Z|debug||0 ||db_write] create_row host_metrics (OpaqueRef:f6cc4378-f0ce-4a59-9821-80411ed3b90c) [(_ref,v),(uuid,v),(memory__total,v),(memory__free,v),(live,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:06.754Z|debug||0 ||db_write] create_row host (OpaqueRef:ba41af90-7e11-4b14-a6a8-aca28836f1b0) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(memory__overhead,v),(allowed_operations,v),(current_operations,v),(API_version__major,v),(API_version__minor,v),(API_version__vendor,v),(API_version__vendor_implementation,v),(enabled,v),(software_version,v),(other_config,v),(capabilities,v),(cpu_configuration,v),(sched_policy,v),(supported_bootloaders,v),(logging,v),(suspend_image_sr,v),(crash_dump_sr,v),(cpu_info,v),(hostname,v),(address,v),(metrics,v),(license_params,v),(boot_free_mem,v),(ha_statefiles,v),(ha_network_peers,v),(blobs,v),(tags,v),(external_auth_type,v),(external_auth_service_name,v),(external_auth_configuration,v),(edition,v),(license_server,v),(bios_strings,v),(power_on_mode,v),(power_on_config,v),(local_cache_sr,v),(chipset_info,v),(ssl_legacy,v),(guest_VCPUs_params,v),(display,v),(virtual_hardware_platform_versions,v),(control_domain,v),(updates_requiring_reboot,v),(iscsi_iqn,v),(multipathing,v),(uefi_certificates,v),(editions,v),(https_only,v)]
+[20230915T14:37:06.754Z|debug||0 ||db_write] create_row network (OpaqueRef:ef058585-3de1-4532-9ad8-0e62f8f7a92b) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(MTU,v),(other_config,v),(bridge,v),(managed,v),(blobs,v),(tags,v),(default_locking_mode,v),(assigned_ips,v),(purpose,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: network1 has no PIF connected to this host
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:06.954Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:95c6d692-60b1-4a33-bfd3-693875a15fba) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:06.955Z|debug||0 ||db_write] create_row PIF (OpaqueRef:749439e5-59ff-47d1-9479-837a382a3def) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:06.955Z|debug||70 ||network_event_loop] Listening to events on network objects
+[20230915T14:37:06.955Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT network1 is now connected to this host with pif1
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:06.955Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:4603cea5-347d-4830-8442-b7259ad34130) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:06.955Z|debug||0 ||db_write] create_row PIF (OpaqueRef:1f968697-5093-48e8-82a9-32cf7676dea7) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:07.006Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: We've already enabled NBD on this network's bridge
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:07.207Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: only the network1's name label was modified
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:07.356Z|debug||0 ||db_write] create_row network (OpaqueRef:7bace197-25b5-4c1e-bfba-8eeb01727e68) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(MTU,v),(other_config,v),(bridge,v),(managed,v),(blobs,v),(tags,v),(default_locking_mode,v),(assigned_ips,v),(purpose,v)]
+[20230915T14:37:07.407Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: network2 has no PIF connected to this host
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:07.557Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:daf6925a-c277-4245-851d-f151a60c582c) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:07.557Z|debug||0 ||db_write] create_row PIF (OpaqueRef:3e3c9334-5dcd-4f80-8dae-00a37ae16189) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:07.608Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge2, bridge1]
+[20230915T14:37:07.608Z|error||70 ||network_event_loop] Caught INTERNAL_ERROR: [ (Failure "Failed to update firewall") ] listening to events on network objects
+[20230915T14:37:07.808Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:07.809Z|error||70 ||network_event_loop] Caught INTERNAL_ERROR: [ (Failure "Failed to update firewall") ] listening to events on network objects
+ASSERT update_firewall shouldn't have been called: The event loop should wait for the given delay in case of failures
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.009Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT we should have noticed the addition of network2 and its PIF after the transient failure
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.009Z|debug||0 ||db_write] create_row network (OpaqueRef:7c35ae06-fd74-4a80-becf-e7f63005aba9) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(MTU,v),(other_config,v),(bridge,v),(managed,v),(blobs,v),(tags,v),(default_locking_mode,v),(assigned_ips,v),(purpose,v)]
+[20230915T14:37:08.060Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: network3 has no PIFs at all
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.210Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:893b1d8c-d39d-42f8-be0d-c166ca7b7ace) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:08.210Z|debug||0 ||db_write] create_row PIF (OpaqueRef:adad9f58-861a-4b54-b98e-3882205b5b4f) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:08.261Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: pif1 of network3 is connected to another host
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.411Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:d7e55eee-c8ed-4b52-bc9e-50eef7ed92ba) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:08.411Z|debug||0 ||db_write] create_row PIF (OpaqueRef:c5766486-7003-45da-9793-16d48248ec7c) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:08.462Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: pif2 of network3 is connected to another host
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.611Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:4f94edf0-e15c-4151-a99d-5da1a147ec25) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:08.612Z|debug||0 ||db_write] create_row PIF (OpaqueRef:b9765c66-a348-472e-af48-cebf1dae720d) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:08.663Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge3, bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT network3 is now connected to this host by pif3
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.663Z|debug||0 ||db_write] delete_row PIF (OpaqueRef:749439e5-59ff-47d1-9479-837a382a3def)
+[20230915T14:37:08.714Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: [bridge3, bridge2, bridge1]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: network1 still has a PIF connected to this host, so we shouldn't disallow its bridge
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.863Z|debug||0 ||db_write] delete_row network (OpaqueRef:ef058585-3de1-4532-9ad8-0e62f8f7a92b)
+[20230915T14:37:08.914Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge3, bridge2]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT network1 has been removed
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.914Z|debug||0 ||db_write] delete_row PIF (OpaqueRef:b9765c66-a348-472e-af48-cebf1dae720d)
+[20230915T14:37:08.965Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge2]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT network3's only PIF connected to this host has been removed
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:08.966Z|debug||0 ||db_write] delete_row network (OpaqueRef:7bace197-25b5-4c1e-bfba-8eeb01727e68)
+[20230915T14:37:09.016Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: []
+[20230915T14:37:09.016Z|error||70 ||network_event_loop] Caught INTERNAL_ERROR: [ (Failure "Failed to update firewall") ] listening to events on network objects
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: The event loop should wait for the given delay in case of failures
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.217Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: []
+[20230915T14:37:09.217Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: []
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT no network is connected to this host now, we should have noticed this after the transient failure
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.217Z|debug||0 ||db_write] create_row network (OpaqueRef:95c0058c-c9c6-40a5-a7e1-2fecb5d238ea) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(MTU,v),(other_config,v),(bridge,v),(managed,v),(blobs,v),(tags,v),(default_locking_mode,v),(assigned_ips,v),(purpose,v)]
+[20230915T14:37:09.268Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: []
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: network4 has no PIF connected to this host
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.418Z|debug||0 ||db_write] create_row PIF_metrics (OpaqueRef:977590e8-ee62-404e-b818-6ec77d0ccd8e) [(_ref,v),(uuid,v),(io__read_kbs,v),(io__write_kbs,v),(carrier,v),(vendor_id,v),(vendor_name,v),(device_id,v),(device_name,v),(speed,v),(duplex,v),(pci_bus_path,v),(last_updated,v),(other_config,v)]
+[20230915T14:37:09.418Z|debug||0 ||db_write] create_row PIF (OpaqueRef:4b49a4fc-77a4-4699-ad04-7dbec3b0ed2c) [(_ref,v),(uuid,v),(device,v),(network,v),(host,v),(MAC,v),(MTU,v),(VLAN,v),(device_name,v),(metrics,v),(physical,v),(currently_attached,v),(ip_configuration_mode,v),(IP,v),(netmask,v),(gateway,v),(DNS,v),(bond_slave_of,v),(VLAN_master_of,v),(management,v),(other_config,v),(disallow_unplug,v),(ipv6_configuration_mode,v),(IPv6,v),(ipv6_gateway,v),(primary_address_type,v),(managed,v),(properties,v),(capabilities,v),(igmp_snooping_status,v),(PCI,v)]
+[20230915T14:37:09.469Z|debug||70 ||network_event_loop] Not updating the firewall, because the set of interfaces to use for NBD did not change: []
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT update_firewall shouldn't have been called: NBD is not allowed on network4
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.669Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge4]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT NBD has been enabled on network4
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.720Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: []
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT NBD has been disabled on network4
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:37:09.771Z|debug||70 ||network_event_loop] Updating the firewall to use the following interfaces for NBD: [bridge4]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT NBD has been enabled on network4
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m

@@ -1,0 +1,1 @@
+ocaml/tests/test_clustering_allowed_operations.pp.ml: Alcotest Api_errors Db Helpers List Printf Record_util Ref Test_common Xapi_cluster_helpers Xapi_cluster_host_helpers Xapi_globs Xapi_pool_helpers

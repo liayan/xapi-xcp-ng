@@ -1,0 +1,15 @@
+(lang dune 2.9)
+(name xapi-client)
+(library
+ (name xapi-client)
+ (kind normal)
+ (archives (byte xapi_client.cma) (native xapi_client.cmxa))
+ (plugins (byte xapi_client.cma) (native xapi_client.cmxs))
+ (native_archives xapi_client.a)
+ (requires mtime mtime.clock.os xapi-types xapi-stdext-date)
+ (modes byte native)
+ (modules
+  (unwrapped
+   ((name Client) (obj_name client) (visibility public) (impl))
+   ((name Event_helper) (obj_name event_helper) (visibility public) (impl))
+   ((name Tasks) (obj_name tasks) (visibility public) (impl) (intf)))))

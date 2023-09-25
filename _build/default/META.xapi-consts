@@ -1,0 +1,15 @@
+description = ""
+requires = "xapi-consts.xapi_version"
+archive(byte) = "xapi_consts.cma"
+archive(native) = "xapi_consts.cmxa"
+plugin(byte) = "xapi_consts.cma"
+plugin(native) = "xapi_consts.cmxs"
+package "xapi_version" (
+  directory = "xapi_version"
+  description = ""
+  requires = "xapi-inventory"
+  archive(byte) = "xapi_version.cma"
+  archive(native) = "xapi_version.cmxa"
+  plugin(byte) = "xapi_version.cma"
+  plugin(native) = "xapi_version.cmxs"
+)

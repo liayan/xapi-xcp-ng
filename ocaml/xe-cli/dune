@@ -1,0 +1,14 @@
+(executable
+  (name newcli)
+  (public_name xe)
+  (package xe)
+  (libraries
+   fpath
+   stunnel
+   threads
+   xapi-cli-protocol
+   xapi-stdext-pervasives
+   xapi-stdext-std
+   xapi-stdext-unix
+  )
+)

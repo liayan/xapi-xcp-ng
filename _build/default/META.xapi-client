@@ -1,0 +1,6 @@
+description = ""
+requires = "mtime mtime.clock.os xapi-stdext-date xapi-types"
+archive(byte) = "xapi_client.cma"
+archive(native) = "xapi_client.cmxa"
+plugin(byte) = "xapi_client.cma"
+plugin(native) = "xapi_client.cmxs"

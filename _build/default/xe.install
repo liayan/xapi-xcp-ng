@@ -1,0 +1,13 @@
+lib: [
+  "_build/install/default/lib/xe/META"
+  "_build/install/default/lib/xe/dune-package"
+  "_build/install/default/lib/xe/opam"
+]
+bin: [
+  "_build/install/default/bin/xe"
+]
+doc: [
+  "_build/install/default/doc/xe/CHANGELOG"
+  "_build/install/default/doc/xe/LICENSE"
+  "_build/install/default/doc/xe/README.markdown"
+]

@@ -1,0 +1,9 @@
+(executable
+  (name event_listen)
+  (public_name event_listen)
+  (package xapi)
+  (libraries
+   http-svr
+   xapi-client
+  )
+)

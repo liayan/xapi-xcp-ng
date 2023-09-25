@@ -1,0 +1,49 @@
+===== Host PCIs =====
+
+[20230915T14:36:34.703Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7ae2 class=0106
+[20230915T14:36:34.707Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7ab8 class=0604
+[20230915T14:36:34.707Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=464f class=0880
+[20230915T14:36:34.707Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7a84 class=0601
+[20230915T14:36:34.707Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=15b7 device=5017 class=0108
+[20230915T14:36:34.707Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=460d class=0604
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7af0 class=0280
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7ae8 class=0780
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=10de device=2489 class=0300
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7aa4 class=0c80
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7ad0 class=0403
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=4668 class=0600
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=464d class=0604
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=10de device=228b class=0403
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7aa7 class=0500
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7abc class=0604
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=15f3 class=0200
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=4680 class=0380
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7ae0 class=0c03
+[20230915T14:36:34.708Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7aa3 class=0c05
+[20230915T14:36:34.709Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=7aba class=0604
+[20230915T14:36:34.709Z|debug||0 ||xapi_pci_helpers] get_host_pcis: vendor=8086 device=467d class=1180
+0000:00:17.0 8086 Intel Corporation 7ae2 Device 7ae2 0106 SATA controller 
+0000:00:1c.0 8086 Intel Corporation 7ab8 Device 7ab8 0604 PCI bridge 0000:00:1c.4, 0000:00:1c.2, 
+0000:00:08.0 8086 Intel Corporation 464f Device 464f 0880 System peripheral 
+0000:00:1f.0 8086 Intel Corporation 7a84 Device 7a84 0601 ISA bridge 0000:00:1f.5, 0000:00:1f.3, 0000:00:1f.4, 
+0000:02:00.0 15b7 Sandisk Corp 5017 Device 5017 0108 Non-Volatile memory controller 
+0000:00:01.0 8086 Intel Corporation 460d Device 460d 0604 PCI bridge 
+0000:00:14.3 8086 Intel Corporation 7af0 Device 7af0 0280 Network controller 0000:00:14.2, 0000:00:14.0, 
+0000:00:16.0 8086 Intel Corporation 7ae8 Device 7ae8 0780 Communication controller 
+0000:01:00.0 10de NVIDIA Corporation 2489 Device 2489 0300 VGA compatible controller 0000:01:00.1, 
+0000:00:1f.5 8086 Intel Corporation 7aa4 Device 7aa4 0c80 Serial bus controller [0c80] 0000:00:1f.0, 0000:00:1f.3, 0000:00:1f.4, 
+0000:00:1f.3 8086 Intel Corporation 7ad0 Device 7ad0 0403 Audio device 0000:00:1f.0, 0000:00:1f.5, 0000:00:1f.4, 
+0000:00:00.0 8086 Intel Corporation 4668 Device 4668 0600 Host bridge 
+0000:00:06.0 8086 Intel Corporation 464d Device 464d 0604 PCI bridge 
+0000:01:00.1 10de NVIDIA Corporation 228b Device 228b 0403 Audio device 0000:01:00.0, 
+0000:00:14.2 8086 Intel Corporation 7aa7 Device 7aa7 0500 RAM memory 0000:00:14.3, 0000:00:14.0, 
+0000:00:1c.4 8086 Intel Corporation 7abc Device 7abc 0604 PCI bridge 0000:00:1c.0, 0000:00:1c.2, 
+0000:04:00.0 8086 Intel Corporation 15f3 Device 15f3 0200 Ethernet controller 
+0000:00:02.0 8086 Intel Corporation 4680 Device 4680 0380 Display controller 
+0000:00:14.0 8086 Intel Corporation 7ae0 Device 7ae0 0c03 USB controller 0000:00:14.3, 0000:00:14.2, 
+0000:00:1f.4 8086 Intel Corporation 7aa3 Device 7aa3 0c05 SMBus 0000:00:1f.0, 0000:00:1f.5, 0000:00:1f.3, 
+0000:00:1c.2 8086 Intel Corporation 7aba Device 7aba 0604 PCI bridge 0000:00:1c.0, 0000:00:1c.4, 
+0000:00:0a.0 8086 Intel Corporation 467d Device 467d 1180 Signal processing controller 
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT test_pci_helpers
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m

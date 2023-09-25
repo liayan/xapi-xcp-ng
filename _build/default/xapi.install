@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/xapi/META"
+  "_build/install/default/lib/xapi/dune-package"
+  "_build/install/default/lib/xapi/opam"
+]
+bin: [
+  "_build/install/default/bin/alert-certificate-check"
+  "_build/install/default/bin/block_device_io"
+  "_build/install/default/bin/cdrommon"
+  "_build/install/default/bin/daily-license-check"
+  "_build/install/default/bin/event_listen"
+  "_build/install/default/bin/gencert"
+  "_build/install/default/bin/mpathalert"
+  "_build/install/default/bin/perftest"
+  "_build/install/default/bin/quicktestbin"
+  "_build/install/default/bin/vncproxy"
+  "_build/install/default/bin/xapi"
+  "_build/install/default/bin/xapi-db-process"
+  "_build/install/default/bin/xsh"
+]
+share: [
+  "_build/install/default/share/xapi/rbac_static.csv"
+]
+doc: [
+  "_build/install/default/doc/xapi/CHANGELOG"
+  "_build/install/default/doc/xapi/LICENSE"
+  "_build/install/default/doc/xapi/README.markdown"
+]

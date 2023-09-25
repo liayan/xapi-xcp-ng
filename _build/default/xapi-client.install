@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/xapi-client/META"
+  "_build/install/default/lib/xapi-client/client.cmi"
+  "_build/install/default/lib/xapi-client/client.cmt"
+  "_build/install/default/lib/xapi-client/client.cmx"
+  "_build/install/default/lib/xapi-client/client.ml"
+  "_build/install/default/lib/xapi-client/dune-package"
+  "_build/install/default/lib/xapi-client/event_helper.cmi"
+  "_build/install/default/lib/xapi-client/event_helper.cmt"
+  "_build/install/default/lib/xapi-client/event_helper.cmx"
+  "_build/install/default/lib/xapi-client/event_helper.ml"
+  "_build/install/default/lib/xapi-client/opam"
+  "_build/install/default/lib/xapi-client/tasks.cmi"
+  "_build/install/default/lib/xapi-client/tasks.cmt"
+  "_build/install/default/lib/xapi-client/tasks.cmti"
+  "_build/install/default/lib/xapi-client/tasks.cmx"
+  "_build/install/default/lib/xapi-client/tasks.ml"
+  "_build/install/default/lib/xapi-client/tasks.mli"
+  "_build/install/default/lib/xapi-client/xapi_client.a"
+  "_build/install/default/lib/xapi-client/xapi_client.cma"
+  "_build/install/default/lib/xapi-client/xapi_client.cmxa"
+]
+libexec: [
+  "_build/install/default/lib/xapi-client/xapi_client.cmxs"
+]
+doc: [
+  "_build/install/default/doc/xapi-client/CHANGELOG"
+  "_build/install/default/doc/xapi-client/LICENSE"
+  "_build/install/default/doc/xapi-client/README.markdown"
+]

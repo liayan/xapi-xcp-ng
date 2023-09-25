@@ -1,0 +1,1 @@
+ocaml/tests/alerts/test_suite.ml: Alcotest Debug Test_alert_certificate_check Test_daily_license_check

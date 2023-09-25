@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/xapi-cli-protocol/META"
+  "_build/install/default/lib/xapi-cli-protocol/cli_protocol.cmi"
+  "_build/install/default/lib/xapi-cli-protocol/cli_protocol.cmt"
+  "_build/install/default/lib/xapi-cli-protocol/cli_protocol.cmx"
+  "_build/install/default/lib/xapi-cli-protocol/cli_protocol.ml"
+  "_build/install/default/lib/xapi-cli-protocol/dune-package"
+  "_build/install/default/lib/xapi-cli-protocol/opam"
+  "_build/install/default/lib/xapi-cli-protocol/xapi_cli_protocol.a"
+  "_build/install/default/lib/xapi-cli-protocol/xapi_cli_protocol.cma"
+  "_build/install/default/lib/xapi-cli-protocol/xapi_cli_protocol.cmxa"
+]
+libexec: [
+  "_build/install/default/lib/xapi-cli-protocol/xapi_cli_protocol.cmxs"
+]
+doc: [
+  "_build/install/default/doc/xapi-cli-protocol/CHANGELOG"
+  "_build/install/default/doc/xapi-cli-protocol/LICENSE"
+  "_build/install/default/doc/xapi-cli-protocol/README.markdown"
+]

@@ -1,0 +1,7 @@
+description = ""
+requires =
+"astring http-svr rpclib threads uuidm xapi-consts xapi-idl xapi-stdext-date"
+archive(byte) = "xapi_types.cma"
+archive(native) = "xapi_types.cmxa"
+plugin(byte) = "xapi_types.cma"
+plugin(native) = "xapi_types.cmxs"

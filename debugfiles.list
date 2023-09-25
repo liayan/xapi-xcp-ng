@@ -1,0 +1,109 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/lib64
+%dir /usr/lib/debug/usr/lib64/opamroot
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-types
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-cli-protocol
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-datamodel
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-database
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-consts
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-consts/xapi_version
+%dir /usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-client
+%dir /usr/lib/debug/usr/bin
+%dir /usr/lib/debug/.dwz
+%dir /usr/lib/debug/opt
+%dir /usr/lib/debug/opt/xensource
+%dir /usr/lib/debug/opt/xensource/debug
+%dir /usr/lib/debug/opt/xensource/bin
+%dir /usr/lib/debug/opt/xensource/libexec
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/71
+%dir /usr/lib/debug/.build-id/83
+%dir /usr/lib/debug/.build-id/29
+%dir /usr/lib/debug/.build-id/3f
+%dir /usr/lib/debug/.build-id/96
+%dir /usr/lib/debug/.build-id/69
+%dir /usr/lib/debug/.build-id/da
+%dir /usr/lib/debug/.build-id/f2
+%dir /usr/lib/debug/.build-id/81
+%dir /usr/lib/debug/.build-id/87
+%dir /usr/lib/debug/.build-id/ca
+%dir /usr/lib/debug/.build-id/f4
+%dir /usr/lib/debug/.build-id/ea
+%dir /usr/lib/debug/.build-id/be
+%dir /usr/lib/debug/.build-id/60
+%dir /usr/lib/debug/.build-id/2f
+%dir /usr/lib/debug/.build-id/67
+%dir /usr/lib/debug/.build-id/89
+%dir /usr/lib/debug/.build-id/e7
+%dir /usr/lib/debug/.build-id/0d
+%dir /usr/lib/debug/.build-id/c1
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-types/xapi_types.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-cli-protocol/xapi_cli_protocol.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-datamodel/xapi_datamodel.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-database/xapi_database.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-consts/xapi_version/xapi_version.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-consts/xapi_consts.cmxs.debug
+/usr/lib/debug/usr/lib64/opamroot/ocaml-system/lib/xapi-client/xapi_client.cmxs.debug
+/usr/lib/debug/usr/bin/xe.debug
+/usr/lib/debug/.dwz/xapi-1.249.32-1.2.xcpng8.2.x86_64
+/usr/lib/debug/opt/xensource/debug/perftest.debug
+/usr/lib/debug/opt/xensource/debug/quicktestbin.debug
+/usr/lib/debug/opt/xensource/debug/vncproxy.debug
+/usr/lib/debug/opt/xensource/debug/event_listen.debug
+/usr/lib/debug/opt/xensource/bin/xapi.debug
+/usr/lib/debug/opt/xensource/bin/xapi-db-process.debug
+/usr/lib/debug/opt/xensource/bin/xe.debug
+/usr/lib/debug/opt/xensource/bin/xsh.debug
+/usr/lib/debug/opt/xensource/bin/mpathalert.debug
+/usr/lib/debug/opt/xensource/libexec/alert-certificate-check.debug
+/usr/lib/debug/opt/xensource/libexec/block_device_io.debug
+/usr/lib/debug/opt/xensource/libexec/gencert.debug
+/usr/lib/debug/opt/xensource/libexec/cdrommon.debug
+/usr/lib/debug/opt/xensource/libexec/daily-license-check.debug
+/usr/lib/debug/.build-id/71/44635c8bc7813de9bac156ecfd4f4959ba4351
+/usr/lib/debug/.build-id/71/44635c8bc7813de9bac156ecfd4f4959ba4351.debug
+/usr/lib/debug/.build-id/83/864dda1618c1406aabee547b3f73b0f74308b2.debug
+/usr/lib/debug/.build-id/83/864dda1618c1406aabee547b3f73b0f74308b2
+/usr/lib/debug/.build-id/29/dd9450d78e81377d883c9c230ebe921488e2dc.debug
+/usr/lib/debug/.build-id/29/dd9450d78e81377d883c9c230ebe921488e2dc
+/usr/lib/debug/.build-id/3f/bdc67cecfc714ad1ac8b88c0d194ead4e4c3e6.debug
+/usr/lib/debug/.build-id/3f/bdc67cecfc714ad1ac8b88c0d194ead4e4c3e6
+/usr/lib/debug/.build-id/96/320bd14fdcbafb318fcd438789e9131afe1f39.debug
+/usr/lib/debug/.build-id/96/320bd14fdcbafb318fcd438789e9131afe1f39
+/usr/lib/debug/.build-id/69/04b58a2daec06864ea04048419ec0ab29bfcd2
+/usr/lib/debug/.build-id/69/04b58a2daec06864ea04048419ec0ab29bfcd2.debug
+/usr/lib/debug/.build-id/da/39a3ee5e6b4b0d3255bfef95601890afd80709.debug
+/usr/lib/debug/.build-id/f2/a5be7e75fa5577537001407c930e0c804183ea
+/usr/lib/debug/.build-id/f2/a5be7e75fa5577537001407c930e0c804183ea.debug
+/usr/lib/debug/.build-id/81/2607aa9fb840efed2a08b53240616795241bae.debug
+/usr/lib/debug/.build-id/81/2607aa9fb840efed2a08b53240616795241bae
+/usr/lib/debug/.build-id/87/b2353f03dbcdde8f89b1e0210e93d1f6dba579
+/usr/lib/debug/.build-id/87/b2353f03dbcdde8f89b1e0210e93d1f6dba579.debug
+/usr/lib/debug/.build-id/ca/5703c46b5f89ed81d02a165d818f66beef7294
+/usr/lib/debug/.build-id/ca/5703c46b5f89ed81d02a165d818f66beef7294.debug
+/usr/lib/debug/.build-id/f4/193c7f303f8eb6f407d64ee64c8eabcb47fe45
+/usr/lib/debug/.build-id/f4/193c7f303f8eb6f407d64ee64c8eabcb47fe45.debug
+/usr/lib/debug/.build-id/ea/1b4e96413cfa1c17fe3b8e960a38b25cbf77fa
+/usr/lib/debug/.build-id/ea/1b4e96413cfa1c17fe3b8e960a38b25cbf77fa.debug
+/usr/lib/debug/.build-id/be/1cc9a9405c03f74506cdaffffb407ea5fecf1c.debug
+/usr/lib/debug/.build-id/be/1cc9a9405c03f74506cdaffffb407ea5fecf1c
+/usr/lib/debug/.build-id/be/184869a610763ada5d168950ebca38dc3d9a46.debug
+/usr/lib/debug/.build-id/be/184869a610763ada5d168950ebca38dc3d9a46
+/usr/lib/debug/.build-id/60/a850a1e845c5568f69cdfa5f5455a724f83dba
+/usr/lib/debug/.build-id/60/a850a1e845c5568f69cdfa5f5455a724f83dba.debug
+/usr/lib/debug/.build-id/2f/7e017ebd915eedf303269546dec2cf0ba0c42f
+/usr/lib/debug/.build-id/2f/7e017ebd915eedf303269546dec2cf0ba0c42f.debug
+/usr/lib/debug/.build-id/67/45fe8917daed6e3f2d0ce6887c9975e2fadd71
+/usr/lib/debug/.build-id/67/45fe8917daed6e3f2d0ce6887c9975e2fadd71.debug
+/usr/lib/debug/.build-id/89/4d9b461273b33361ab758857e8c7ac03b428b7
+/usr/lib/debug/.build-id/89/4d9b461273b33361ab758857e8c7ac03b428b7.debug
+/usr/lib/debug/.build-id/e7/f35d42655a7892240ab9d1ae38a14ce396c02c.debug
+/usr/lib/debug/.build-id/e7/f35d42655a7892240ab9d1ae38a14ce396c02c
+/usr/lib/debug/.build-id/0d/4bd42191ae8154e4da7ad05c59c47904489932
+/usr/lib/debug/.build-id/0d/4bd42191ae8154e4da7ad05c59c47904489932.debug
+/usr/lib/debug/.build-id/c1/740513a7f3e852bf13a82d8af0e1552c8a10c9.debug
+/usr/lib/debug/.build-id/c1/740513a7f3e852bf13a82d8af0e1552c8a10c9
+/usr/src/debug/xapi-1.249.32

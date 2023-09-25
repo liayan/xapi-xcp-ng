@@ -1,0 +1,196 @@
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:34.769Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:34.769Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:34.769Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:34.769Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:34.771Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001672
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SM (OpaqueRef:96ebd247-3209-4652-8076-03730609f5ca) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SR (OpaqueRef:d2d27dda-aa48-4279-8544-8ae12e73335b) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row PBD (OpaqueRef:32082df2-7d36-427e-8e55-2db652e6f74e) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row VDI (OpaqueRef:6ba5b9a1-0606-440c-a117-9a3094d03461) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SM (OpaqueRef:b36578f8-7a3e-4671-b9a2-a0661406f89f) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SR (OpaqueRef:738aa659-38ca-4e22-8873-fadbefaf0bd2) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row PBD (OpaqueRef:4bbf518a-cbfd-4aaa-9e2c-d7065b2b64d0) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row VDI (OpaqueRef:ff87209c-1e61-444d-a846-c1d8f5f1b4f4) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SM (OpaqueRef:b7175f94-2d68-45bc-adaf-817ad964e08c) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row SR (OpaqueRef:c36f87ca-3a4d-4e7c-812f-1daefaf78f68) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.771Z|debug||0 ||db_write] create_row PBD (OpaqueRef:36d4b452-0415-400f-a54d-a80958837510) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.772Z|debug||0 ||db_write] create_row VDI (OpaqueRef:4ea1faa8-fba5-483a-a701-24dba73156ba) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.772Z|debug||0 ||db_write] create_row SM (OpaqueRef:addd09d4-011d-41fc-adb3-9684260df8e4) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.772Z|debug||0 ||db_write] create_row SR (OpaqueRef:4e7190a3-4f36-40d9-9ea7-29cdbee68b1f) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.772Z|debug||0 ||db_write] create_row PBD (OpaqueRef:37850faa-4e6b-4763-9806-cdf5df75c7c5) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.772Z|debug||0 ||db_write] create_row VDI (OpaqueRef:1adaa702-6d36-44cc-a750-5aad4f5b1979) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'session'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'auth'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'subject'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'role'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'task'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'event'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'pool'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'pool_patch'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'pool_update'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VM'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VM_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VM_guest_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VMPP'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VMSS'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VM_appliance'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'DR_task'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'host'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'host_crashdump'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'host_patch'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'host_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'host_cpu'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'network'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VIF'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VIF_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PIF'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PIF_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'Bond'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VLAN'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'SM'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'SR'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'sr_stat'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'probe_result'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'LVHD'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VDI'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VBD'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VBD_metrics'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PBD'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'crashdump'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VTPM'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'console'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'user'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'data_source'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'blob'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'message'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'secret'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'tunnel'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'network_sriov'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PCI'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PGPU'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'GPU_group'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VGPU'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'VGPU_type'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PVS_site'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PVS_server'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PVS_proxy'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'PVS_cache_storage'
+[20230915T14:36:34.774Z|debug||0 ||xapi] Adding new database table: 'Feature'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'SDN_controller'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'vdi_nbd_server_info'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'PUSB'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'USB_group'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'VUSB'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'Cluster'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'Cluster_host'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'Certificate'
+[20230915T14:36:34.775Z|debug||0 ||xapi] Adding new database table: 'Diagnostics'
+[20230915T14:36:34.775Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:34.775Z|debug||0 ||xapi] About to flush database: ./xapi-db.xml
+[20230915T14:36:34.775Z| info||0 ||redo_log] Flushing database to all active redo-logs
+[20230915T14:36:34.776Z|debug||0 ||sql] XML backend [./xapi-db.xml] -- Write buffer flushed. Time: 0.001720
+[20230915T14:36:34.776Z|debug||0 ||db_write] create_row SM (OpaqueRef:4b99a669-496b-4461-948a-c3ef403b7efd) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.776Z|debug||0 ||db_write] create_row SR (OpaqueRef:62b2f036-a7d4-4257-b4e1-9885f3060e1d) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.776Z|debug||0 ||db_write] create_row PBD (OpaqueRef:cabef68b-1291-40b3-adea-d55848201b0a) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row VDI (OpaqueRef:e9460713-a5e4-4ccf-bfff-a0f7535b9d74) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SM (OpaqueRef:78c48343-e1bc-486a-a894-403f19ab5300) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SR (OpaqueRef:b1c2c03b-b6f3-4124-a19e-a55a38e3908c) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row PBD (OpaqueRef:068c1cae-f473-4782-9aa2-27137773b2e5) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row VDI (OpaqueRef:bcc2d912-aee2-4335-9f28-e23fc440be35) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SM (OpaqueRef:1e52bb8f-943f-4f46-ad62-ca42ac336445) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SR (OpaqueRef:f4f39ea7-a075-407b-8744-f7e35b85393f) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row PBD (OpaqueRef:52141ca7-463c-4e57-b03a-4e81e7ab2233) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row VDI (OpaqueRef:0b95fd43-2815-422a-87eb-7c92b05e6849) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SM (OpaqueRef:16e294e2-a85b-49f7-8ca8-06a8e681e42c) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(type,v),(vendor,v),(copyright,v),(version,v),(required_api_version,v),(configuration,v),(capabilities,v),(features,v),(other_config,v),(driver_filename,v),(required_cluster_stack,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row SR (OpaqueRef:11f47fb6-a821-4f91-a82c-1198810722b3) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(virtual_allocation,v),(physical_utilisation,v),(physical_size,v),(type,v),(content_type,v),(shared,v),(other_config,v),(tags,v),(default_vdi_visibility,v),(sm_config,v),(blobs,v),(local_cache_enabled,v),(introduced_by,v),(clustered,v),(is_tools_sr,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row PBD (OpaqueRef:830e2286-36e3-4a72-af21-fca4cef6d355) [(_ref,v),(uuid,v),(host,v),(SR,v),(device_config,v),(currently_attached,v),(other_config,v)]
+[20230915T14:36:34.777Z|debug||0 ||db_write] create_row VDI (OpaqueRef:a9aae563-1c95-42df-8693-9e1ddd6f0acb) [(_ref,v),(uuid,v),(name__label,v),(name__description,v),(allowed_operations,v),(current_operations,v),(SR,v),(virtual_size,v),(physical_utilisation,v),(type,v),(sharable,v),(read_only,v),(other_config,v),(storage_lock,v),(location,v),(managed,v),(missing,v),(parent,v),(xenstore_data,v),(sm_config,v),(is_a_snapshot,v),(snapshot_of,v),(snapshot_time,v),(tags,v),(allow_caching,v),(on_boot,v),(metadata_of_pool,v),(metadata_latest,v),(is_tools_iso,v),(cbt_enabled,v)]
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT Same error code
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m

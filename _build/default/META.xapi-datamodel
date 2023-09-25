@@ -1,0 +1,13 @@
+description = ""
+requires =
+"rpclib
+ threads
+ xapi-consts
+ xapi-database
+ xapi-stdext-date
+ xapi-stdext-std
+ xapi-stdext-unix"
+archive(byte) = "xapi_datamodel.cma"
+archive(native) = "xapi_datamodel.cmxa"
+plugin(byte) = "xapi_datamodel.cma"
+plugin(native) = "xapi_datamodel.cmxs"

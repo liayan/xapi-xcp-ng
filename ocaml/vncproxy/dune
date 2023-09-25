@@ -1,0 +1,11 @@
+(executable
+  (name vncproxy)
+  (public_name vncproxy)
+  (package xapi)
+  (libraries
+   http-svr
+   xapi-client
+   xapi-stdext-unix
+   xapi-stdext-pervasives
+  )
+)

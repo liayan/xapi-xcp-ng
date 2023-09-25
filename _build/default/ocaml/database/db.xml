@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database><manifest><pair key="schema_major_vsn" value="1"/><pair key="schema_minor_vsn" value="1"/><pair key="generation_count" value="-1"/></manifest><table name="VBD"/><table name="VM"/></database>

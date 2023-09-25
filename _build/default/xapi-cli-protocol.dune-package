@@ -1,0 +1,16 @@
+(lang dune 2.9)
+(name xapi-cli-protocol)
+(library
+ (name xapi-cli-protocol)
+ (kind normal)
+ (archives (byte xapi_cli_protocol.cma) (native xapi_cli_protocol.cmxa))
+ (plugins (byte xapi_cli_protocol.cma) (native xapi_cli_protocol.cmxs))
+ (native_archives xapi_cli_protocol.a)
+ (requires threads xapi-stdext-unix)
+ (modes byte native)
+ (modules
+  (singleton
+   (name Cli_protocol)
+   (obj_name cli_protocol)
+   (visibility public)
+   (impl))))

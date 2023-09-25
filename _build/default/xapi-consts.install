@@ -1,0 +1,44 @@
+lib: [
+  "_build/install/default/lib/xapi-consts/META"
+  "_build/install/default/lib/xapi-consts/api_errors.cmi"
+  "_build/install/default/lib/xapi-consts/api_errors.cmt"
+  "_build/install/default/lib/xapi-consts/api_errors.cmx"
+  "_build/install/default/lib/xapi-consts/api_errors.ml"
+  "_build/install/default/lib/xapi-consts/api_messages.cmi"
+  "_build/install/default/lib/xapi-consts/api_messages.cmt"
+  "_build/install/default/lib/xapi-consts/api_messages.cmx"
+  "_build/install/default/lib/xapi-consts/api_messages.ml"
+  "_build/install/default/lib/xapi-consts/constants.cmi"
+  "_build/install/default/lib/xapi-consts/constants.cmt"
+  "_build/install/default/lib/xapi-consts/constants.cmx"
+  "_build/install/default/lib/xapi-consts/constants.ml"
+  "_build/install/default/lib/xapi-consts/dune-package"
+  "_build/install/default/lib/xapi-consts/opam"
+  "_build/install/default/lib/xapi-consts/sizes.cmi"
+  "_build/install/default/lib/xapi-consts/sizes.cmt"
+  "_build/install/default/lib/xapi-consts/sizes.cmx"
+  "_build/install/default/lib/xapi-consts/sizes.ml"
+  "_build/install/default/lib/xapi-consts/xapi_consts.a"
+  "_build/install/default/lib/xapi-consts/xapi_consts.cma"
+  "_build/install/default/lib/xapi-consts/xapi_consts.cmxa"
+  "_build/install/default/lib/xapi-consts/xapi_version/build_info.cmi" {"xapi_version/build_info.cmi"}
+  "_build/install/default/lib/xapi-consts/xapi_version/build_info.cmt" {"xapi_version/build_info.cmt"}
+  "_build/install/default/lib/xapi-consts/xapi_version/build_info.cmx" {"xapi_version/build_info.cmx"}
+  "_build/install/default/lib/xapi-consts/xapi_version/build_info.ml" {"xapi_version/build_info.ml"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.a" {"xapi_version/xapi_version.a"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cma" {"xapi_version/xapi_version.cma"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cmi" {"xapi_version/xapi_version.cmi"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cmt" {"xapi_version/xapi_version.cmt"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cmx" {"xapi_version/xapi_version.cmx"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cmxa" {"xapi_version/xapi_version.cmxa"}
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.ml" {"xapi_version/xapi_version.ml"}
+]
+libexec: [
+  "_build/install/default/lib/xapi-consts/xapi_consts.cmxs"
+  "_build/install/default/lib/xapi-consts/xapi_version/xapi_version.cmxs" {"xapi_version/xapi_version.cmxs"}
+]
+doc: [
+  "_build/install/default/doc/xapi-consts/CHANGELOG"
+  "_build/install/default/doc/xapi-consts/LICENSE"
+  "_build/install/default/doc/xapi-consts/README.markdown"
+]

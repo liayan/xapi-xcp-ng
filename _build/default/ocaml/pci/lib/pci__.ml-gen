@@ -1,0 +1,6 @@
+(** @canonical Pci.Ffi_generated *)
+module Ffi_generated = Pci__Ffi_generated
+
+
+(** @canonical Pci.Ffi_generated_types *)
+module Ffi_generated_types = Pci__Ffi_generated_types

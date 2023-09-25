@@ -1,0 +1,9 @@
+[20230915T14:37:10.299Z|error||0 ||xapi] Ignoring error parsing test_data/this-file-is-not-there.xml: (Sys_error "test_data/this-file-is-not-there.xml: No such file or directory")
+Raised by primitive operation at file "stdlib.ml", line 398, characters 28-54
+Called from file "stdlib.ml" (inlined), line 403, characters 2-45
+Called from file "ocaml/xapi/xapi_vgpu_type.ml", line 722, characters 15-32
+
+
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m
+ASSERT (test_data/this-file-is-not-there.xml, 3333, 4444) -> []
+[33m-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m

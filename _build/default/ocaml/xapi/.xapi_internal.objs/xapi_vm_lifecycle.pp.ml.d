@@ -1,0 +1,1 @@
+ocaml/xapi/xapi_vm_lifecycle.pp.ml: API Api_errors Db Db_actions Debug ExnHelper Helpers List Option Pool_role Pvs_proxy_control Record_util Ref Rrd_client String Vm_platform Xapi_globs Xapi_gpumon Xapi_pv_driver_version Xapi_stdext_std Xapi_vbd_helpers Xapi_vif_helpers Xapi_vm_appliance_lifecycle Xapi_vusb_helpers

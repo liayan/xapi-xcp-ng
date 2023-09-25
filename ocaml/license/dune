@@ -1,0 +1,21 @@
+(library
+  (name daily_license_check)
+  (modules daily_license_check)
+  (libraries
+    xapi-client
+    xapi-stdext-date
+  )
+)
+
+(executable
+  (name daily_license_check_main)
+  (public_name daily-license-check)
+  (package xapi)
+  (modules daily_license_check_main)
+  (libraries
+    daily_license_check
+    xapi-client
+    xapi-stdext-date
+    xapi-stdext-pervasives
+  )
+)
